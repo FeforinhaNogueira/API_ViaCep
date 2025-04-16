@@ -1,0 +1,44 @@
+/* Fundo da página */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+  }
+  
+  /* Formulário centralizado e com estilo */
+  form.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Labels */
+  .form-label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Inputs */
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  /* Botão estilizado */
+  #pesquisar {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 576px) {
+    body {
+      padding: 20px;
+    }
+  
+    form.container {
+      padding: 20px;
+    }
+  }
+  
